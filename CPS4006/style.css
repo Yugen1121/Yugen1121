@@ -1,0 +1,61 @@
+
+#nav-bar {
+    background-color: black
+}
+
+body {
+    margin: 0;
+}
+
+#Main-menue {
+    display: flex;
+    width: 100;
+    padding-left: 5%;
+}
+
+#search {
+    width:10%;
+    height: 100%;
+}
+
+.search_box {
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    height: 100%;
+}
+
+#Main-header {
+    width: 100;
+    padding:20px;
+    font-size: 32px;
+}
+
+.header-logo {
+    text-decoration: none;
+    color: white;
+}
+
+#Main-options {
+    padding-bottom: 20px;
+    padding-left: 1%;
+}
+
+.header-options {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.header-option {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#body {
+    padding-inline: 2%;
+}
